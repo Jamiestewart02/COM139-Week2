@@ -1,0 +1,10 @@
+class Main {
+  public static void main(String[] args) {
+    double Celsius = Console.getInt("Temperature in Celcius");
+    double Fahrenheit = (9.0/5 * Celsius + 32);
+    System.out.println( "Temperature in Fahrenheit: " + Fahrenheit);
+    if (Celsius <= 3) {
+        System.out.println("Cuation Frost Alert!");
+    }
+  }
+}

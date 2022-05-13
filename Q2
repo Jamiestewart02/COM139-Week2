@@ -1,0 +1,17 @@
+class Main {
+  public static void main(String[] args) {
+    
+    int a = Console.getInt("Please enter a number"); 
+    ZeroOddEven(a);
+  }
+  
+  public static void ZeroOddEven (int number) {      
+    if (number == 0) {
+        System.out.println("You entered 0");
+    } else if (number % 2 != 0) {
+        System.out.println("numbet number is odd");
+    } else if (number % 2 == 0){
+        System.out.println("number is even");
+    }
+  }
+}

@@ -1,0 +1,18 @@
+import java.util.*;
+
+class Main {
+  public static void main(String[] args) {
+      System.out.print("Please enter a number: ");
+      Scanner sc = new Scanner(System.in);
+      int a = sc.nextInt();
+      ZeroOddEven(a);
+  }
+  
+  public static void ZeroOddEven (int number) {      
+    if (number % 2 == 0) {
+        System.out.println("number is even");
+    } else {
+        System.out.println("numbet number is odd");
+  }
+}
+}

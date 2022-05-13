@@ -1,0 +1,15 @@
+class Main {
+  public static void main(String[] args) {
+    int p = 7;
+    int q = -4;
+    int r = (3 * p ) + (4 * q);
+    int s = (5 * p) + (6 * r);
+    int t;
+    if (r > s) {
+        t = (p + q);
+    } else {
+        t = (p + q + s);
+    }
+    System.out.println("P= " +  p + " q= " + q + " r= " + r + " s= " + s + " t= " + t);
+  }
+}

@@ -1,0 +1,11 @@
+class Main {
+  public static void main(String[] args) {
+
+    double number1 = Console.getInt("Enter first integer");
+    double number2 = Console.getInt("Enter second integer");
+
+    double answer = number1 / number2;
+
+    System.out.printf("The answer is %.2f\n",answer); 
+  }
+}
